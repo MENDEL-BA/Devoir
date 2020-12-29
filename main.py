@@ -12,6 +12,7 @@ while True :
             print("Veuillez entrer un nombre !")
 
 
+
 while True:
         try:
             numero=int(input("Entrer une valeur coprise entre 0 et 50:\t"))
