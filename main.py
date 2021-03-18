@@ -1,3 +1,4 @@
+#PAPA DIERY HAMET BA
 from random import randint
 nombre_aleatoire=randint(0,50)
 
@@ -9,13 +10,13 @@ while True :
                nom=input("Donner votre nom:\t")
             break
         except:
-            print("Veuillez entrer un nombre !")
+            print("Veuillez entrer votre nom !")
 
 
 
 while True:
         try:
-            numero=int(input("Entrer une valeur coprise entre 0 et 50:\t"))
+            numero=int(input("Entrer une valeur comprise entre 0 et 50:\t"))
             break
         except:
             print("Veuillez entrer un nombre !")
